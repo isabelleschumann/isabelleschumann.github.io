@@ -6,3 +6,43 @@
     text-align: center;
     background-color: #a15;
 }
+#style-1-block-2 {
+    text-align: center;
+    background-color: #804;
+}
+#style-1-block-3 {
+    text-align: center;
+    background-color: #d15;
+}
+#style-heading-2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#style-2-block-1 {
+    text-align: center;
+    background-color: #2a2c24;
+}
+#style-2-block-2 {
+    text-align: center;
+    background-color: #575a4b;
+}
+#style-2-block-3 {
+    text-align: center;
+    background-color: #816c61;
+}
+#style-heading-3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#style-3-block-1 {
+    text-align: center;
+    background-color: #996888;
+}
+#style-3-block-2 {
+    text-align: center;
+    background-color: #c99da3;
+}
+#style-3-block-3 {
+    text-align: center;
+    background-color: #c6ddf0;
+}
