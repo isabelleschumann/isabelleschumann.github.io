@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 250px;
     grid-template-areas: "content sidebar";
+    margin: 36px 0px;
 }
 
 #sidebar-content {
@@ -49,6 +50,6 @@ body {
 }
 
 #main-content {
-    background-color: lightgreen;
     grid-area: content;
+    padding: 0px 36px;
 }
