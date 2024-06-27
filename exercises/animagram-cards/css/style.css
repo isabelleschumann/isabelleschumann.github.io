@@ -26,7 +26,8 @@ body {
 
 .animagram-header {
     font-size: 24px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .profile-pic-container img {

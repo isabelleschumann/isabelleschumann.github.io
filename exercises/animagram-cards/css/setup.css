@@ -22,6 +22,7 @@ body {
 
 .card-container {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -40,9 +41,14 @@ body {
     border-radius: 50%;
     width: 66px;
     text-align: center;
+    flex: 1;
 }
 
 .card-style-2 .animagram-header .brand-name {
     font-family: 'Acme';
     font-weight: bold;
+}
+
+span {
+    padding: 5px;
 }
