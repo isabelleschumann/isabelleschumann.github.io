@@ -75,3 +75,30 @@ body {
         lime
     );
 }
+
+#pokemon-card-2 {
+    border: 20px solid goldenrod;
+    background: linear-gradient(
+        to top right,
+        lime,
+        green
+    );
+}
+
+#pokemon-card-3 {
+    border: 20px solid goldenrod;
+    background: linear-gradient(
+        to top right,
+        orange,
+        red
+    );
+}
+
+#pokemon-card-4 {
+    border: 20px solid goldenrod;
+    background: linear-gradient(
+        to top right,
+        lightblue,
+        cyan
+    );
+}
