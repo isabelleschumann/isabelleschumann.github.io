@@ -21,13 +21,22 @@ body {
     background-color: white;
     border-radius: 50px;
     text-align: center;
-    margin: 0px 24px 0px 24px;
+    margin: 24px 24px 24px 24px;
 }
 
 .animagram-header {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
+}
+
+.animagram-header .logo {
+    margin: 20px;
+}
+
+.animagram-header .brand-name {
+    margin: 20px;
+    font-size: 25px;
 }
 
 .profile-pic-container img {
@@ -44,3 +53,9 @@ p {
     padding: 24px;
 }
 
+.animagram-footer  {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 25px;
+}
