@@ -8,7 +8,9 @@ body {
 }
 
 #hero-1 {
-    background-image: url(../images/pic-10.jpg);
+    background: 
+        linear-gradient(#ffffff00, #000000aa),
+        url(../images/pic-10.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -19,7 +21,7 @@ body {
 
 #hero-1 .hero-content {
     text-align: center;
-    color: rgb(89, 35, 125);
+    color: white;
     padding: 20vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
