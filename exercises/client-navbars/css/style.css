@@ -85,3 +85,13 @@ body {
     color:#F08080;
 }
 
+#angel-hero {
+    background-image: url(../images/angel-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
