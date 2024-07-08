@@ -95,3 +95,169 @@ body {
     align-items: center;
 }
 
+#angel-hero .hero-content-2 {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#angel-hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#angel-hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#angel-hero a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
+
+/* tailored spooks */
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(
+        to bottom,
+        #862fe0,
+        #88e032
+    );
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-top .content-column h4 {
+    color: white;
+}
+
+#navbar-bottom .cta-button {
+    background-color: #fb702d;
+    color: #333;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(
+        to bottom,
+        #fb702d,
+        #333
+    );
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom .content-column h2 {
+    color: white;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#layout {
+    width: 600px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
+#footer {
+    background: linear-gradient(
+        to bottom,
+        #88e032,
+        #862fe0
+    );
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spooky-hero {
+    background-image: url(../images/spooky-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spooky-hero .hero-content-3 {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#spooky-hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#spooky-hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#spooky-hero a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #fb702d;
+    color: #862fe0;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    
+}
