@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* sculptor's haven */
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #786452,
+        #A5907E
+    );
+    display: flex;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar h1 {
+    color: white;
+}
+
+#clay-hero {
+    background-image: url(../images/clay-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clay-hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#clay-hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#clay-hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#clay-hero a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
+
+/* angel ears */
+
+#navbar-2 {
+    background: linear-gradient(
+        to bottom,
+        #F8AD9D,
+        #FBC4AB
+    );
+    display: flex;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-2 h1 {
+    color:#F08080;
+}
+
