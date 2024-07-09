@@ -40,7 +40,7 @@ body {
 }
 
 .image-container,
-.content-contianer {
+.content-container {
     flex: 1;
 }
 
@@ -49,8 +49,8 @@ body {
 }
 
 .content-container {
-    font-size: 48px;
-    color: #ffb700;
+    font-size: 24px;
+    color: black
 }
 
 .featured {
