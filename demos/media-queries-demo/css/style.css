@@ -48,9 +48,9 @@ body {
     height: 400px;
 }
 
-.content-container {
-    font-size: 24px;
-    color: black
+.content-container h1{
+    font-size: 48px;
+    color: #ffb700
 }
 
 .featured {
@@ -127,7 +127,7 @@ body {
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-            "txt1 img1"
+            "txt1 img1" 
             "img2 img2"
             "img3 img3"
             "img4 txt2";
@@ -154,6 +154,7 @@ body {
     }
     .content-container {
         text-align: center;
+        font-size: 32px;
     }
     .grid {
         grid-template-columns: 1fr;
