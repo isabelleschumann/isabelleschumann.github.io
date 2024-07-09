@@ -64,6 +64,41 @@ body {
     margin: 5vh 2vw 10vh;
 }
 
+#clay-footer {
+    background: linear-gradient(
+        to bottom,
+        #786452,
+        #A5907E
+    );
+    color: white;
+    padding: 12px;
+}
+
+#clay-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#clay-footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clay-footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clay-footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
 /* angel ears */
 
 #navbar-2 {
