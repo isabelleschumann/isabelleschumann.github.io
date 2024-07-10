@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* NAVBAR SETUP */
+
+#navbar {
+    background: linear-gradient(
+        to bottom right,
+        #ffd23f,
+        #ee4266,
+        #540d6e
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+/* HERO SETUP */
+
+#dog-hero {
+    background-image: url(../images/dogs-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dog-hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+
+#dog-hero h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+
+#dog-hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background: linear-gradient(
+        to bottom right,
+        #ffd23f,
+        #ee4266,
+        #540d6e
+    );
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
