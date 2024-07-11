@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #ffd23f;
 }
 
 /* NAVBAR SETUP */
@@ -21,13 +22,63 @@ body {
 }
 
 #navbar a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 24px;
 }
 
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        #540d6e,
+        #ee4266,
+        #ffd23f
+    );
+
+}
+
 #navbar #logo {
     margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+/* DROPDOWN MENU SET UP */
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
 }
 
 /* HERO SETUP */
@@ -71,3 +122,146 @@ body {
     margin: 5vh 5vw 10vh 0px;
 }
 
+/* ADOPT MAX PAGE */
+
+#max-dog {
+    background-color: #ee4266;
+    color: white;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+#max-dog img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+#navbar,
+#max-dog {
+    width: 500px;
+    margin: 0px auto;
+}
+
+#max-dog h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#max-dog p {
+    text-align: center;
+    padding: 24px;
+}
+
+/* ADOPT TAMMY PAGE */
+
+#tammy-dog {
+    background-color: #ee4266;
+    color: white;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+#tammy-dog img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+#navbar,
+#tammy-dog {
+    width: 500px;
+    margin: 0px auto;
+}
+
+#tammy-dog h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#tammy-dog p {
+    text-align: center;
+    padding: 24px;
+}
+
+/* ADOPT COOKIE PAGE */
+
+#cookie-dog {
+    background-color: #ee4266;
+    color: white;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+#cookie-dog img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+#navbar,
+#cookie-dog {
+    width: 500px;
+    margin: 0px auto;
+}
+
+#cookie-dog h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#cookie-dog p {
+    text-align: center;
+    padding: 24px;
+}
+
+/* MEDIA QUERIES LAYOUTS */
+
+@media screen and (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    #dog-hero h2 {
+        margin: 0px;
+        font-size: 32px;
+    }
+    #dog-hero h4 {
+        margin: 0px;
+        font-size: 22px;
+    }
+    #dog-hero a {
+        font-size: 12px;
+    }
+    #max-dog h1 {
+        font-size: 32px;
+    }
+    #max-dog p {
+        font-size: 18px;
+    }
+    #tammy-dog h1 {
+        font-size: 32px;
+    }
+    #tammy-dog p {
+        font-size: 18px;
+    }
+    #cookie-dog h1 {
+        font-size: 32px;
+    }
+    #cookie-dog p {
+        font-size: 18px;
+    }
+}
