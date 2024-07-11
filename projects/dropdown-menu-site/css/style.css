@@ -138,12 +138,6 @@ body {
     border-radius: 20px;
 }
 
-#navbar,
-#max-dog {
-    width: 500px;
-    margin: 0px auto;
-}
-
 #max-dog h1 {
     text-align: center;
 }
@@ -173,12 +167,6 @@ body {
     border-radius: 20px;
 }
 
-#navbar,
-#tammy-dog {
-    width: 500px;
-    margin: 0px auto;
-}
-
 #tammy-dog h1 {
     text-align: center;
 }
@@ -206,12 +194,6 @@ body {
 #cookie-dog img {
     width: 50%;
     border-radius: 20px;
-}
-
-#navbar,
-#cookie-dog {
-    width: 500px;
-    margin: 0px auto;
 }
 
 #cookie-dog h1 {
