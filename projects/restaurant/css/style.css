@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* NAVBAR SETUP */
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background-color: #9cd090;
+    font-family: silom;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-top #logo img {
+    width: 150px;
+}
+
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: #be1e2d;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom,#ffffff,#9cd090);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: #be1e2d;
+    padding: 12px 0px;
+    font-family: source sans variable;
+}
+
+/* HERO SETUP */
+
+.spacer {
+    height: 5vh;
+}
+
+#italian-hero {
+    background-image: url(../images/pizza-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#italian-hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#italian-hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#italian-hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#italian-hero a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #be1e2d;
+    color: #ffffff;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    font-family: silom;
+}
+
+/* CONTENT & FOOTER LAYOUT */
+
+#footer {
+    background: linear-gradient(to bottom,#ffffff,#9cd090);
+    color: white;
+    padding: 12px;
+    font-family: source sans variable
+}
+
+#footer a {
+    text-decoration: none;
+    color: #be1e2d
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+#layout h1 {
+    font-size: 40px;
+    font-family: silom;
+    color: #be1e2d;
+}
+
+#layout p {
+    font-size: 20px;
+    font-family: source sans variable;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #navbar-top {
+        font-family: silom;
+    }
+    #navbar-bottom a {
+        font-family: source sans variable;
+    }
+    #italian-hero {
+        font-size: 32px;
+        font-family: silom;
+    }
+    #layout h1 {
+        font-size: 40px;
+        font-family: silom;
+        color: #be1e2d;
+    }
+    #layout p {
+        font-size: 20px;
+        font-family: source sans variable;
+    }
+    #footer {
+        font-family: source sans variable;
+    }
+}
