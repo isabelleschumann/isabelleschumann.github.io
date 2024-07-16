@@ -181,3 +181,46 @@ body {
         font-family: source sans variable;
     }
 }
+
+/* MENU PAGE SETUP */
+
+#menu-page {
+    text-align: center;
+    font-family: silom;
+    padding: 24px 24px 24px 24px;
+    margin: 24px auto;
+}
+
+#menu-page img {
+    width: 70%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+#menu-page p {
+    font-family: source sans varible;
+    font-size: 24px;
+}
+
+#menu-page h2 {
+    color: #9cd090;
+    font-size: 30px;
+}
+
+#menu-page h3 {
+    color: #be1e2d;
+    font-size: 24px;
+}
+
+#menu-page h4 {
+    font-family: source sans varible;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu-image-container img {
+    padding: 24px auto;
+    margin: 24px auto;
+    width: 100%;
+    object-fit: cover;
+}
