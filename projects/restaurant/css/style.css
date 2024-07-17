@@ -223,3 +223,70 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+/* PAGE 3 LAYOUT 3 */
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#layout-3 {
+    width: 500px;
+    margin: 0px auto;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 50px;
+    color: #be1e2d;
+    font-family: silom;
+}
+
+header p {
+    font-size: 14px;
+}
+
+form {
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #9cd090;
+    border-radius: 2px;
+    color: #9cd090;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #9cd090;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+

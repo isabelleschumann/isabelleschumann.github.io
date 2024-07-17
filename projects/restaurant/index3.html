@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Project Page 3</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar-top">
+            <div class="content-column">
+                <a href="index.html" id="logo">
+                    <img 
+                        src="images/240205CustomLogoProject_101_ISchumann_Final_colored.png"
+                        alt="company logo."
+                    >
+                </a>
+                <div>
+                    <a href="index.html">HOME</a>
+                    <a href="#">OUR MISSION</a>
+                    <a href="#">MERCHENDISE</a>
+                </div>
+                <a href="#" class="cta-button">SIGN IN</a>
+            </div>
+        </div>
+        <div id="navbar-bottom">
+            <div class="content-column">
+                <a href="index2.html">OUR MENU</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">ORDER</a>
+                <a href="#">LOCATIONS</a>
+                <a href="#">SEARCH</a>
+            </div>
+        </div>
+        <div id="layout-3">
+            <header>
+                <h1>Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can we help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what we can help you with
+                            </option>
+                            <option value="gardening">
+                                Menu Options
+                            </option>
+                            <option value="coding">
+                                Food Allergens
+                            </option>
+                            <option value="web dev">
+                                Other
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. John Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <h2>Oh, you want more?</h2>
+                <p>
+                    To make a form like this functional, try creating
+                    an account at 
+                    <a href="https://getform.io/" target="_blank">
+                        getform.io 
+                    </a>.
+                </p>
+                <p>
+                    Then, copy the <b>Form Endpoint</b> URL they provide
+                    you with, and set it as the <form>'s 
+                    <i>action</i> attribute, as well as set the 
+                    <i>method</i> attribute to "POST".
+                </p>
+                <p>
+                    That should make your form functional, and you can
+                    see the submitted forms in getform.io, or in the 
+                    inbox you associated with your getform.io account!
+                </p>
+            </footer>
+        </div>
+        <div id="footer">
+            <div id="footer-columns-navbar">
+                <div>
+                    <a href="#">About</a>
+                    <a href="index3.html">Contact Us</a>
+                    <a href="#">About Itally's Kitchen</a>
+                    <a href="#">Nutritional & Allergens</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div>
+                    <a href="#">Community</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Press</a>
+                    <a href="#">Internation Franchising</a>
+                    <a href="#">Buy Gift Cards</a>
+                </div>
+                <div>
+                    <a href="#">Check Gift Card Balances</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Order To Go</a>
+                    <a href="#">My Account</a>
+                    <a href="#">Look Up Order</a>
+                </div>
+                <div>
+                    <a href="#">Order History</a>
+                    <a href="#">Locations</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Legal Notices</a>
+                    <a href="#">Privacy Notice</a>
+                </div>
+            </div>
+            <div id="footer-navbar">
+                <span>&copy; 2024 ITALY'S KITCHEN</span>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+                <a href="#">My Privacy Choices</a>
+                <a href="#">Accessibility Statement</a>
+            </div>
+        </div>
+    </body>
+</html>
