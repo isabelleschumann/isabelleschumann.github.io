@@ -51,7 +51,7 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom,#ffffff,#9cd090);
+    background: linear-gradient(to bottom,lightcoral,#be1e2d);
 }
 
 #navbar-bottom .content-column {
@@ -61,9 +61,9 @@ body {
 
 #navbar-bottom a {
     text-decoration: none;
-    color: #be1e2d;
+    color: white;
     padding: 12px 0px;
-    font-family: source sans variable;
+    font-family: sans-serif;
 }
 
 /* HERO SETUP */
@@ -113,15 +113,14 @@ body {
 /* CONTENT & FOOTER LAYOUT */
 
 #footer {
-    background: linear-gradient(to bottom,#ffffff,#9cd090);
+    background: linear-gradient(to bottom, lightcoral, #be1e2d);
     color: white;
     padding: 12px;
-    font-family: source sans variable
 }
 
 #footer a {
     text-decoration: none;
-    color: #be1e2d
+    color: white;
 }
 
 #footer-navbar {
@@ -129,11 +128,6 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-}
-
-#footer-columns-navbar a {
-    display: block;
-    padding: 8px 0px;
 }
 
 #layout {
@@ -144,15 +138,14 @@ body {
 
 #layout h1 {
     font-size: 40px;
-    font-family: silom;
+    font-family: sans-serif;
     color: #be1e2d;
 }
 
 #layout p {
     font-size: 20px;
-    font-family: source sans variable;
+    font-family: sans-serif;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -161,7 +154,7 @@ body {
         font-family: silom;
     }
     #navbar-bottom a {
-        font-family: source sans variable;
+        font-family: sans-serif;
     }
     #italian-hero {
         font-size: 32px;
@@ -174,10 +167,35 @@ body {
     }
     #layout p {
         font-size: 20px;
-        font-family: source sans variable;
+        font-family: sans-serif;
     }
     #footer {
-        font-family: source sans variable;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar-top {
+        font-family: silom;
+    }
+    #navbar-bottom a {
+        font-family: sans-serif;
+    }
+    #italian-hero {
+        font-size: 32px;
+        font-family: silom;
+    }
+    #layout h1 {
+        font-size: 40px;
+        font-family: silom;
+        color: #be1e2d;
+    }
+    #layout p {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    #footer {
+        font-family: sans-serif;
     }
 }
 
@@ -197,7 +215,7 @@ body {
 }
 
 #menu-page p {
-    font-family: source sans varible;
+    font-family: sans-serif;
     font-size: 24px;
 }
 
