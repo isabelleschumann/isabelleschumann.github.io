@@ -84,6 +84,7 @@ body {
     background-color: whitesmoke;
     padding: 24px;
     margin-bottom: 24px;
+    margin-top: 24px;
 }
 
 .center-column h1 {
@@ -124,4 +125,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+/* PAGE 2 CONTENT ABOUT ME PAGE */
 
