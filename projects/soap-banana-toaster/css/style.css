@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/pool-2.jpg);
 }
 
 /* NAVBAR SETUP */
@@ -80,6 +81,24 @@ body {
     width: 50%; 
     min-width: 500px;
     margin: 0px auto;
+    background-color: whitesmoke;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.center-column h1 {
+    color: #ea526f;
+    text-align: center;
+}
+
+.center-column h3 {
+    color: #25ced1;
+    font-size: 24px;
+    text-align: center;
+}
+
+.center-column p {
+    font-size: 20px;
 }
 
 /* FOOTER LAYOUT */
@@ -105,3 +124,4 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
