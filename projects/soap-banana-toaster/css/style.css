@@ -31,7 +31,7 @@ body {
 }
 
 #navbar #logo img {
-    width: 150px;
+    width: 250px;
 }
 
 /* HERO LAYOUT */
@@ -124,4 +124,26 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+/* SOCIALS PAGE */
+
+.center-column-2 {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+    background-color: whitesmoke;
+    padding: 24px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.center-column-2 h1 {
+    color: #ea526f;
+    text-align: center;
+}
+
+.center-column-2 a {
+    text-decoration: none;
+    color: #25ced1;
 }
