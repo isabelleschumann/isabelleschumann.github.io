@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #fab5de;
 }
 
 #navbar,
@@ -47,5 +48,207 @@ body {
 .side-by-side img {
     padding-left: 36px;
     width: 100%;
+}
+
+.spacer {
+    height: 100vh;
+    background-color: #c40b3f;
+}
+
+#hero-4 {
+    background-image: url(../images/my-profile-pic.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20vh;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #c40b3f;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    border-radius: 24px;
+}
+
+/* index 2 */
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    color: #d42884;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* index 4 */
+
+#layout-2{
+    width: 500px;
+    margin: 0px auto;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 14px;
+    color: white;
+}
+
+form {
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #d42884;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
+header h1 {
+    color: white;
+}
+
+/* index 5 */
+
+#hero-2 {
+    background-image: url(../images/pink-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #d42884;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: #d42884;
+}
+
+#hero-2 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #d42884;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 24px;
+}
+
+/* hero 3 */
+
+#hero-3 {
+    background-image: url(../images/pink-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #d42884;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: #d42884;
+}
+
+#hero-3 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #d42884;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 24px;
 }
 
