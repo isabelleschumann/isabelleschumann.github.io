@@ -67,7 +67,7 @@ body {
 
 #hero-4 .hero-content {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #d42884;
     padding-top: 20vh;
 }
 
@@ -84,7 +84,7 @@ body {
 #hero-4 a {
     font-size: 3vw;
     display: inline-block;
-    background-color: #c40b3f;
+    background-color: #d42884;
     color: white;
     text-decoration: none;
     padding: 24px;
