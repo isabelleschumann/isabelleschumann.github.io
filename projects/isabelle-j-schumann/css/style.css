@@ -74,11 +74,13 @@ body {
 #hero-4 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
+    color: #d42884;
 }
 
 #hero-4 h4 {
     font-size: 3vw;
     margin: 0px;
+    color: #d42884;
 }
 
 #hero-4 a {
